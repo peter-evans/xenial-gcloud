@@ -1,2 +1,3 @@
 # xenial-gcloud
-Google Cloud SDK on Ubuntu Xenial Docker image.
+
+[Google Cloud SDK](https://cloud.google.com/sdk/) on Ubuntu Xenial.
