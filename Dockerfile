@@ -8,14 +8,14 @@ ENV GCLOUD_VERSION 138.0.0
 ENV DEBIAN_FRONTEND noninteractive
 
 # Install packages
-RUN apt-get -y update && apt-get install -y -qq --no-install-recommends \
+RUN apt-get -y update \
+ && apt-get install -y -qq --no-install-recommends \
     curl \
     python \
-    ca-certificates && \
-    # Clean up
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/* && \
-    rm -rf /tmp/* /var/tmp/*
+    ca-certificates \
+ && apt-get clean \
+ && rm -rf /var/lib/apt/lists/* \
+ && rm -rf /tmp/* /var/tmp/*
 
 # Install the Google Cloud SDK
 RUN curl --silent -L https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-$GCLOUD_VERSION-linux-x86_64.tar.gz -o google-cloud-sdk.tar.gz \
