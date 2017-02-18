@@ -1,8 +1,7 @@
 # xenial-gcloud
+[![](https://images.microbadger.com/badges/image/peterevans/xenial-gcloud.svg)](https://microbadger.com/images/peterevans/xenial-gcloud)
 
 [Google Cloud SDK](https://cloud.google.com/sdk/) on Ubuntu Xenial.
-
-[![](https://images.microbadger.com/badges/image/peterevans/xenial-gcloud.svg)](https://microbadger.com/images/peterevans/xenial-gcloud "Get your own image badge on microbadger.com")
 
 # Supported tags and respective `Dockerfile` links
 
