@@ -5,5 +5,5 @@
 
 # Supported tags and respective `Dockerfile` links
 
-- [`1.2.10`, `1.2`, `latest`  (*1.2/Dockerfile*)](https://github.com/peter-evans/xenial-gcloud/tree/master/1.2)
+- [`1.2.11`, `1.2`, `latest`  (*1.2/Dockerfile*)](https://github.com/peter-evans/xenial-gcloud/tree/master/1.2)
 - [`1.1.0`, `1.1`  (*1.1/Dockerfile*)](https://github.com/peter-evans/xenial-gcloud/tree/master/1.1)
