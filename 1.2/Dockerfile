@@ -2,7 +2,7 @@ FROM ubuntu:xenial
 
 MAINTAINER Peter Evans <pete.evans@gmail.com>
 
-ENV GCLOUD_VERSION 218.0.0
+ENV GCLOUD_VERSION 226.0.0
 
 # Let the container know that there is no TTY
 ARG DEBIAN_FRONTEND=noninteractive
