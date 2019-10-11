@@ -1,8 +1,0 @@
-services:
-  - docker
-
-install:
-  - docker build -t xenial-gcloud .
-
-script:
-  - docker images | grep -q xenial-gcloud
